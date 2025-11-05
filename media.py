@@ -6,7 +6,8 @@ media= (nota1 + nota2)/2
 
 if media >= 7:
     estado ="Aprovado" 
-elif media >= 5:
+elif media >= 4:
     estado = "Recuperação"
 else:
     estado = "Reprovado"
+print(f"Olá {nome}, sua média é : ", média)
